@@ -17,17 +17,27 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Tests
 
-### Describe: numberIdentifier()
+### Describe: arrayFromInput()
 
+* Test: "It should return the user inputted number into an array containing a sequence of numbers from 0 to the inputted number"
+* Code:
+* const userInput = "1";
+* numberIdentifier(arrayUserInput);
+* Expected Output: "beep"
 * Test: "It should return "beep" if the user inputted number contains the number  1."
 * Code:
 * const userInput = "1";
-* numberIdentifier(userInput);
+* numberIdentifier(arrayUserInput);
 * Expected Output: "beep"
 * Test: "It should return "boop" if the user inputted number contains the number 2."
 * Code:
 * const userInput = "2";
-* numberIdentifier(userInput);
+* numberIdentifier(arrayUserInput);
+* Expected Output: "boop"
+* Test: "It should return "boop" if the user inputted number contains the number 2."
+* Code:
+* const userInput = "3";
+* numberIdentifier(arrayUserInput);
 * Expected Output: "boop"
 
 ## Setup/Installation Requirements
