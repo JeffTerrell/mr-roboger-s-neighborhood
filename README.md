@@ -26,7 +26,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 * Expected Output: "0,1,2,3,4,5"
 
 ### Describe: numberIdentifierLoop()
-* Test: "It should return "beep" if the user inputted number contains the number  1."
+* Test: "It should return "beep" in a different array if the user inputted number contains the number 1."
 * Code:
 * const userInput = "1";
 * numberIdentifierLoop(arrayUserInput);
