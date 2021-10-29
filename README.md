@@ -19,12 +19,12 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ### Describe: numberIdentifier()
 
-* Test: "It should return "beep" if the user inputted number is 1."
+* Test: "It should return "beep" if the user inputted number contains the number  1."
 * Code:
 * const userInput = "1";
 * numberIdentifier(userInput);
 * Expected Output: "beep"
-* Test: "It should return "boop" if the user inputted number is 2."
+* Test: "It should return "boop" if the user inputted number contains the number 2."
 * Code:
 * const userInput = "2";
 * numberIdentifier(userInput);
