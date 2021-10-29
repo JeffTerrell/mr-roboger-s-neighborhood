@@ -24,6 +24,11 @@ _{This is a detailed description of your application. Give as much detail as nee
 * const userInput = "1";
 * numberIdentifier(userInput);
 * Expected Output: "beep"
+* Test: "It should return "boop" if the user inputted number is 2."
+* Code:
+* const userInput = "2";
+* numberIdentifier(userInput);
+* Expected Output: "boop"
 
 ## Setup/Installation Requirements
 
