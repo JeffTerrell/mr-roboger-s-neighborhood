@@ -26,11 +26,17 @@ _{This is a detailed description of your application. Give as much detail as nee
 * Expected Output: "0,1,2,3,4,5"
 
 ### Describe: numberIdentifierLoop()
-* Test: "It should return "beep" in a different array if the user inputted number contains the number 1."
+* Test: "It should return "beep" in a different array if the user inputted number contains the digit 1."
 * Code:
 * const userInput = "11";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, 2, 3, 4, 5, 6, 7, 8, 9, beep, beep"
+
+* Test: "It should return "boop" in a different array if the user inputted number contains the digit 2."
+* Code:
+* const userInput = "12";
+* numberIdentifierLoop(arrayUserInput);
+* Expected Output: "0, 1, boop, 3, 4, 5, 6, 7, 8, 9, 10, 11, boop"
 
 
 ## Setup/Installation Requirements
