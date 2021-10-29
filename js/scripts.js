@@ -22,7 +22,14 @@ function numberIdentifierLoop (number) {
       userOutput.push(i);  
     }
   }
+  return userOutput($("#robogeroutput")); //will remove jQuery from business logic
 }
-numberIdentifierLoop(arrayUserInput);  
-console.log(userOutput);
 
+
+// User Interface Logic
+$(document).ready(function() {
+  $("#robogerform").submit(function(event) {
+    event.preventDefault();
+    numberIdentifierLoop($("#userinput").valueOf());
+  });
+});

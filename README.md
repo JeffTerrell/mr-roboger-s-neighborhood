@@ -1,19 +1,20 @@
-# _{Application Name}_
+# Mr. Roboger Translator
 
-#### By _**{List of contributors}**_
+#### By Jeff Terrell
 
-#### _{Brief description of application}_
+#### A webpage that has a user input a number and generates a robot "like" translation
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* Bootstrap
+* JavaScipt
+* jQuery
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+Users can input any number of their choosing and hit the submit button to receive a robot translation from 0 all the to the inputted number.
 
 ## Tests
 
@@ -65,21 +66,20 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Create a new directory on your local machine.
+* From a terminal, navigate to the newly created directory and use the "Git clone" command to copy the repository from this address (https://github.com/JeffTerrell/mr-roboger-s-neighborhood).
+* Navigate to the main level of the cloned directory.
+* Click to open index.html in a web browser.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* None at this time.
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+[MIT](https://opensource.org/licenses/MIT)
 
-Copyright (c) _date_ _author name(s)_
+Please contact Jeff Terrell via email with any issues, questions, or ideas.
+
+Copyright (c) 2021 Jeff Terrell
