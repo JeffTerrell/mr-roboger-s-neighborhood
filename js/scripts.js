@@ -7,23 +7,18 @@ function arrayFromInput (number) {
   arrayUserInput = Array.from({length: number+1}, (v, i) => i);
   return arrayUserInput;
 }
-
 arrayFromInput(userInput);
-
-
-const numberOne = [1, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 31, 41, 51];
+console.log
 
 function numberIdentifierLoop (number) {
   for (let i = 0; i < number.length; i++) {
-    if (numberOne.includes(i)) {
+    if ((i+'').indexOf('1') > -1) { //turns array into string to identify any occurance of 1
       userOutput.push("beep");
     } else {
-      userOutput.push(i);
+      userOutput.push(i);  
     }
   }
 }
-
 numberIdentifierLoop(arrayUserInput);  
 console.log(userOutput);
 
-// cannot figure out how to find all numbers containing 1 instead of just 1 without creating separate array with pre defined numbers
