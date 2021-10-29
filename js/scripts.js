@@ -1,8 +1,10 @@
 // Business Logic
 
-// work in progress to identify if number contains 1 not just equals 1
-function numberIdentifier (number) {
-  if (number === 1) {
-    return "beep"
-  }
+const userInput = 5;
+
+function arrayFromInput (number) {
+  arrayUserInput = Array.from({length: number+1}, (v, i) => i);
+  return arrayUserInput;
 }
+
+arrayFromInput(userInput);
