@@ -32,11 +32,17 @@ _{This is a detailed description of your application. Give as much detail as nee
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, 2, 3, 4, 5, 6, 7, 8, 9, beep, beep"
 
-* Test: "It should return "boop" if the user inputted number contains the digit 2 and "beep" if inputted number contains the digit 1."
+* Test: "It should return "boop" if the inputted number contains the digit 2 and "beep" if inputted number contains the digit 1."
 * Code:
 * const userInput = "12";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, boop, 3, 4, 5, 6, 7, 8, 9, beep, beep, boop"
+
+* Test: "It should return "Won't you be my neighbor?" if number contains the digit 3, "boop" if the number contains the digit 2, and "beep" if number contains the digit 1."
+* Code:
+* const userInput = "13";
+* numberIdentifierLoop(arrayUserInput);
+* Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, beep, beep, boop, Won't you be my neighbor?"
 
 
 ## Setup/Installation Requirements

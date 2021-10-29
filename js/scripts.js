@@ -12,9 +12,11 @@ console.log
 
 function numberIdentifierLoop (number) {
   for (let i = 0; i < number.length; i++) {
-    if ((i+'').indexOf('2') > -1) {
+    if ((i+'').indexOf('3') > -1) {
+      userOutput.push("Won't you be my neighbor?");
+    } else if ((i+'').indexOf('2') > -1) {
       userOutput.push("boop");
-    } else if ((i+'').indexOf('1') > -1) {
+      } else if ((i+'').indexOf('1') > -1) {
       userOutput.push("beep");  
     } else {
       userOutput.push(i);  
