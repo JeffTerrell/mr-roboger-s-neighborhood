@@ -16,7 +16,7 @@ function numberIdentifierLoop (number) {
       userOutput.push("Won't you be my neighbor?");
     } else if ((i+'').indexOf('2') > -1) {
       userOutput.push("boop");
-      } else if ((i+'').indexOf('1') > -1) {
+    } else if ((i+'').indexOf('1') > -1) {
       userOutput.push("beep");  
     } else {
       userOutput.push(i);  

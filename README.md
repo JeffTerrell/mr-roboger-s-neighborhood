@@ -38,11 +38,29 @@ _{This is a detailed description of your application. Give as much detail as nee
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, boop, 3, 4, 5, 6, 7, 8, 9, beep, beep, boop"
 
-* Test: "It should return "Won't you be my neighbor?" if number contains the digit 3, "boop" if the number contains the digit 2, and "beep" if number contains the digit 1."
+* Test: "It should return "Won't you be my neighbor?" if inputted number contains the digit 3, "boop" if inputted number contains the digit 2, and "beep" if inputted number contains the digit 1."
 * Code:
 * const userInput = "13";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, beep, beep, boop, Won't you be my neighbor?"
+
+* Test: "It should return "Won't you be my neighbor?" for the number 31 within the output array"
+* Code:
+* const userInput = "31";
+* numberIdentifierLoop(arrayUserInput);
+* Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, .........(29)boop, (30)Won't you be my neighbor?, (31)Won't you be my neighbor?)"
+
+* Test: "It should return "boop?" for the number 21 within the output array"
+* Code:
+* const userInput = "21";
+* numberIdentifierLoop(arrayUserInput);
+* Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, .........(19)beep, (20)boop, (21)boop"
+
+* Test: "It should return "Won't you be my neighbor?" for the number 13 within the output array"
+* Code:
+* const userInput = "13";
+* numberIdentifierLoop(arrayUserInput);
+* Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, .........(11)beep, (12)boop, (13)Won't you be my neighbor?"
 
 
 ## Setup/Installation Requirements
