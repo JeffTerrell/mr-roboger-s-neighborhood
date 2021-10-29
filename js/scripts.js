@@ -25,3 +25,5 @@ function numberIdentifierLoop (number) {
 
 numberIdentifierLoop(arrayUserInput);  
 console.log(userOutput);
+
+// cannot figure out how to find all numbers containing 1 instead of just 1 without creating separate array with pre defined numbers
