@@ -27,6 +27,12 @@ Users can input any number of their choosing and hit the submit button to receiv
 * Expected Output: "0,1,2,3,4,5"
 
 ### Describe: numberIdentifierLoop()
+* Test: "It should return an error if the user input value is not a number"
+* Code:
+* const userInput = "hello";
+* numberIdentifierLoop(arrayUserInput);
+* Expected Output: "error"
+
 * Test: "It should return "beep" in a different array if the user inputted number contains the digit 1."
 * Code:
 * const userInput = "11";

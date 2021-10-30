@@ -21,7 +21,7 @@ function numberIdentifierLoop (number) {
       userOutput.push(i);  
     }
   }
-  return userOutput;
+  return userOutput.join(", ");
 }
 
 
@@ -29,8 +29,10 @@ function numberIdentifierLoop (number) {
 $(document).ready(function() {
   $("#robogerform").submit(function(event) {
     event.preventDefault();
+    $("#error").hide();
+    // $("#robogeroutput").hide()
     
-    $("#robogeroutput").html("<p>" + numberIdentifierLoop($("#userinput").val()) + "</p>");
+    $("#robogeroutput").html(numberIdentifierLoop($("#userinput").val()));
     console.log("userinput");
     // reset submit box to empty after clicking submit button
   });
