@@ -1,16 +1,15 @@
 // Business Logic
 
-const userInput = 5;
-let userOutput =[];
-
 function arrayFromInput (number) {
-  arrayUserInput = Array.from({length: number+1}, (v, i) => i);
+  arrayUserInput = [...Array(number+1).keys()];
   return arrayUserInput;
 }
 
 
 function numberIdentifierLoop (number) {
-  arrayFromInput(number);
+  const number1 = parseInt(number);
+  arrayFromInput(number1);
+  const userOutput =[];
   for (let i = 0; i < arrayUserInput.length; i++) {
     if ((i+'').indexOf('3') > -1) {
       userOutput.push("Won't you be my neighbor?");
@@ -22,7 +21,7 @@ function numberIdentifierLoop (number) {
       userOutput.push(i);  
     }
   }
-  return userOutput($("#robogeroutput")); //will remove jQuery from business logic
+  return userOutput;
 }
 
 
@@ -30,6 +29,9 @@ function numberIdentifierLoop (number) {
 $(document).ready(function() {
   $("#robogerform").submit(function(event) {
     event.preventDefault();
-    numberIdentifierLoop($("#userinput").valueOf());
+    
+    $("#robogeroutput").html("<p>" + numberIdentifierLoop($("#userinput").val()) + "</p>");
+    console.log("userinput");
+    // reset submit box to empty after clicking submit button
   });
 });
