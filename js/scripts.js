@@ -7,6 +7,9 @@ function arrayFromInput (number) {
 
 
 function numberIdentifierLoop (number) {
+  if (isNaN(number)) {
+    return $("#error").show();
+  }
   const number1 = parseInt(number);
   arrayFromInput(number1);
   const userOutput =[];
