@@ -14,7 +14,7 @@
 
 ## Description
 
-Users can input any number of their choosing and hit the submit button to receive a robot translation from 0 all the to the inputted number. Get ready for "beep", "bloop", and more "beep".
+Users can input any number of their choosing and hit the submit button to receive a robot translation from 0 all the way to the inputted number. Get ready for "beep", "bloop", and more "beep" from your friendly neighborhood robot.
 
 ## Specs
 
