@@ -1,10 +1,8 @@
 // Business Logic
-
 function arrayFromInput (number) {
   arrayUserInput = [...Array(number+1).keys()];
   return arrayUserInput;
 }
-
 
 function numberIdentifierLoop (number) {
   if (isNaN(number)) {
@@ -24,7 +22,7 @@ function numberIdentifierLoop (number) {
       userOutput.push(i);  
     }
   }
-  return userOutput.join(", ");
+  return userOutput.join("--");
 }
 
 
@@ -33,10 +31,7 @@ $(document).ready(function() {
   $("#robogerform").submit(function(event) {
     event.preventDefault();
     $("#error").hide();
-    // $("#robogeroutput").hide()
     
-    $("#robogeroutput").html(numberIdentifierLoop($("#userinput").val()));
-    console.log("userinput");
-    // reset submit box to empty after clicking submit button
+    $("#robogeroutput").html("<h6>" + numberIdentifierLoop($("#userinput").val()) + "</h6>");
   });
 });

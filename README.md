@@ -16,7 +16,7 @@
 
 Users can input any number of their choosing and hit the submit button to receive a robot translation from 0 all the to the inputted number. Get ready for "beep", "bloop", and more "beep".
 
-## Tests
+## Specs
 
 ### Describe: arrayFromInput()
 
@@ -32,37 +32,37 @@ Users can input any number of their choosing and hit the submit button to receiv
 * const userInput = "hello";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "error"
-
+***
 * Test: "It should return "beep" in a different array if the user inputted number contains the digit 1."
 * Code:
 * const userInput = "11";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, 2, 3, 4, 5, 6, 7, 8, 9, beep, beep"
-
+***
 * Test: "It should return "boop" if the inputted number contains the digit 2 and "beep" if inputted number contains the digit 1."
 * Code:
 * const userInput = "12";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, boop, 3, 4, 5, 6, 7, 8, 9, beep, beep, boop"
-
+***
 * Test: "It should return "Won't you be my neighbor?" if inputted number contains the digit 3, "boop" if inputted number contains the digit 2, and "beep" if inputted number contains the digit 1."
 * Code:
 * const userInput = "13";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, beep, beep, boop, Won't you be my neighbor?"
-
+***
 * Test: "It should return "Won't you be my neighbor?" for the number 31 within the output array"
 * Code:
 * const userInput = "31";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, .........(29)boop, (30)Won't you be my neighbor?, (31)Won't you be my neighbor?)"
-
+***
 * Test: "It should return "boop?" for the number 21 within the output array"
 * Code:
 * const userInput = "21";
 * numberIdentifierLoop(arrayUserInput);
 * Expected Output: "0, beep, boop, Won't you be my neighbor?, 4, .........(19)beep, (20)boop, (21)boop"
-
+***
 * Test: "It should return "Won't you be my neighbor?" for the number 13 within the output array"
 * Code:
 * const userInput = "13";

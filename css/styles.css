@@ -1,3 +1,26 @@
+.container {
+  margin-top: 2%;
+  width: 33%;
+  text-align: left;
+  color: navy;
+}
+
+h3 {
+  color: rgb(5, 128, 32);
+}
+
+h2 {
+  color: red;
+}
+
+#robogeroutput {
+  color: rgb(189, 3, 179);
+}
+
 #error {
   display: none;
+}
+
+.btn {
+  background-color: rgb(68, 150, 245);
 }
